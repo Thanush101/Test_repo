@@ -1,0 +1,14 @@
+# Core Libraries
+playwright==1.42.0
+beautifulsoup4==4.12.3
+pandas==2.2.0
+lxml==5.1.0
+
+# For Logging and Environment Management
+python-dotenv==1.0.0
+
+# For Better Error Handling and Retries
+tenacity==8.2.3
+
+# Optional: For Concurrency (if needed later)
+aiohttp==3.9.1

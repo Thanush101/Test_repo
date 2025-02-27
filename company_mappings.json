@@ -1,0 +1,14 @@
+{
+   
+
+    "Apple": {
+        "base_url": "https://jobs.apple.com/en-in/search?location=india-INDC",
+        "extractor": "apple_extractor.AppleExtractor",
+        "params": {
+            "max_pages": 2
+        }
+    }
+    
+     
+  
+}

@@ -1,0 +1,32 @@
+2025-02-25 10:33:39,482 - INFO - Retrying request to /models in 0.398080 seconds
+2025-02-25 10:33:51,045 - INFO - Retrying request to /models in 0.895924 seconds
+2025-02-25 10:34:04,016 - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 401 Unauthorized"
+2025-02-25 10:34:04,031 - ERROR - OpenAI client initialization failed: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-your-********here. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}
+2025-02-25 10:34:43,591 - INFO - HTTP Request: GET https://api.openai.com/v1/models "HTTP/1.1 200 OK"
+2025-02-25 10:34:43,997 - INFO - Loading jobs page: https://jobs.apple.com/en-in/search?location=india-INDC
+2025-02-25 10:34:52,818 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-25 10:34:52,819 - WARNING - Attempt 1 failed: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}. Retrying in 5s...
+2025-02-25 10:34:58,769 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-25 10:34:58,773 - WARNING - Attempt 2 failed: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}. Retrying in 10s...
+2025-02-25 10:35:09,732 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-25 10:35:09,734 - ERROR - Error analyzing page structure: Error code: 400 - {'error': {'message': "Invalid parameter: 'response_format' of type 'json_object' is not supported with this model.", 'type': 'invalid_request_error', 'param': 'response_format', 'code': None}}
+2025-02-25 10:35:09,735 - INFO - Processing page 1
+2025-02-25 10:35:10,289 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-25 10:35:10,292 - ERROR - Error processing page 1: BaseExtractor.try_next_page() missing 1 required positional argument: 'pagination_strategy'
+2025-02-25 10:35:10,294 - INFO - Total jobs found: 0
+2025-02-25 10:38:37,009 - INFO - Retrying request to /models in 0.459498 seconds
+2025-02-25 10:38:49,513 - INFO - Retrying request to /models in 0.875921 seconds
+2025-02-25 10:39:02,423 - ERROR - OpenAI client initialization failed: Connection error.
+2025-02-25 10:40:34,645 - INFO - OpenAI client initialized successfully
+2025-02-25 10:40:34,973 - INFO - Loading jobs page: https://jobs.apple.com/en-in/search?location=india-INDC
+2025-02-25 10:40:45,061 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 10:40:45,094 - WARNING - Attempt 1 failed: object ChatCompletion can't be used in 'await' expression. Retrying in 5s...
+2025-02-25 10:40:51,890 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 10:40:51,894 - WARNING - Attempt 2 failed: object ChatCompletion can't be used in 'await' expression. Retrying in 10s...
+2025-02-25 10:41:03,966 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-02-25 10:41:03,992 - ERROR - Error analyzing page structure: object ChatCompletion can't be used in 'await' expression
+2025-02-25 10:41:04,541 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-25 10:41:04,544 - INFO - Processing page 1
+2025-02-25 10:41:05,190 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 400 Bad Request"
+2025-02-25 10:41:05,194 - INFO - Total jobs found: 0
+2025-02-25 10:41:05,516 - INFO - Error screenshot saved

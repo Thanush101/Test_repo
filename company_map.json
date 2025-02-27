@@ -1,0 +1,119 @@
+{
+    "Amazon": {
+        "base_url": "https://www.amazon.jobs/en/search",
+        "extractor": "amazon_extractor.AmazonExtractor",
+        "params": {
+            "max_pages": 2,
+            "query": {
+                "base_query": "software engineer",
+                "loc_query": "india",
+                "type": "area",
+                "longitude": "77.21676",
+                "latitude": "28.63141",
+                "country": "IND"
+            }
+        }
+    },
+    "Google": {
+        "base_url": "https://www.google.com/about/careers/applications/jobs/results",
+        "extractor": "google_extractor.GoogleExtractor",
+        "params": {
+            "max_pages": 2,
+            "query": {
+                "location": "India",
+                "has_remote": "true",
+                "category": "SOFTWARE_ENGINEERING"
+            }
+        }
+    
+    },
+    "HCL": {
+        "base_url": "https://www.hcltech.com/careers/careers-in-india#job-openings",
+        "extractor": "hcl_extractor.HCLExtractor",
+        "params": {
+            "max_pages": 3
+        }
+     
+    },
+    "Wipro": {
+        "base_url": "https://careers.wipro.com/search/?createNewAlert=false&q=&locationsearch=india",
+        "extractor": "base_extractor.BaseExtractor",
+        "params": {
+            "max_pages": 3
+        }
+    },
+    "Capgemini": {
+        "base_url": "https://www.capgemini.com/in-en/careers/join-capgemini/job-search/?country_code=in-en&country_name=India&size=15",
+        "extractor": "capgemini_extractor.CapgeminiExtractor",
+        "params": {
+            "max_pages": 3
+        }
+    
+    },
+    "Salesforce": {
+        "base_url": "https://careers.salesforce.com/en/jobs/",
+        "extractor": "base_extractor.BaseExtractor",
+        "params": {
+            "max_pages": 3
+        }
+    
+
+    
+
+    },
+    "Deloitte": {
+        "base_url": "https://apply.deloitte.com/careers/SearchJobs?3_5_3=479&sort=relevancy",
+        "extractor": "base_extractor.BaseExtractor",
+        "params": {
+            "max_pages": 3
+        }
+    },
+    "Accenture": {
+        "base_url": "https://www.accenture.com/in-en/careers/jobsearch?jk=india&sb=0&vw=0&is_rj=0&pg=1",
+        "extractor": "base_extractor.BaseExtractor",
+        "params": {
+            "max_pages": 2
+        }
+    },
+    "IBM": {
+        "base_url": "https://www.ibm.com/in-en/careers/search?field_keyword_17[0]=Remote&field_keyword_05[0]=India",
+        "extractor": "ibm_extractor.IBMExtractor",
+        "params": {
+            "max_pages": 1
+        }
+
+    },
+    "Unilever": {
+        "base_url": "https://careers.unilever.com/search-jobs/India/34155/2/1269750/22/79/100/2",
+        "extractor": "base_extractor.BaseExtractor",
+        "params": {
+            "max_pages": 2
+        }
+
+    },
+    "Procter & Gamble": {
+        "base_url": "https://www.pgcareers.com/in/en/search-results?m=3&lk=india",
+        "extractor": "base_extractor.BaseExtractor",
+        "params": {
+            "max_pages": 2
+        }
+
+    },
+    "Mahindra": {
+        "base_url": "https://jobs.mahindracareers.com/search/?createNewAlert=false&q=&locationsearch=india&optionsFacetsDD_shifttype=&optionsFacetsDD_facility=",
+        "extractor": "mahindra_extractor.MahindraExtractor",
+        "params": {
+            "max_pages": 2
+        }
+
+    },
+    "Nestle": {
+        "base_url": "https://www.nestle.in/jobs/search-jobs?keyword=&country=IN&location=&career_area=All",
+        "extractor": "nestle_extractor.NestleExtractor",
+        "params": {
+            "max_pages": 2
+        }
+    }
+     
+  
+}
